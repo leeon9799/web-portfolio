@@ -2,6 +2,7 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
+   
 }
 h1{
     font-size: 50px;
@@ -24,4 +25,36 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    color: white;
+}
+.another-half-width{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+}
+.another-link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    color: white;
+}
+.drem-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right ;
+    
+}
+p{
+    color: dimgray;
 }
